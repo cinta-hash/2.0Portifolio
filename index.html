@@ -7,27 +7,112 @@
     <script src="https://kit.fontawesome.com/f58fdd4161.js" crossorigin="anonymous"></script>
     <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body  class="bg-no-repeat bg-cover w-full max-h-screen bg-fixed bg-pack bg-center">
+<body  class="bg-no-repeat bg-cover text-white w-full max-h-screen bg-fixed bg-pack bg-center">
     <div id="app"
          class="container flex flex-col relative rounded-xl w-full bg-black bg-opacity-10 backdrop-blur-md">
-     <header>
-            <nav>
-              <h1 class="text-3xl font-bold  text-white">JW <span class="text-orange-500">Mwangi</span></h1>
+         <header>
+            <nav class="flex justify-between items-center space-x-4">
+                <h1 class="text-3xl font-bold">JW <span class="text-orange-500">Mwangi</span></h1>
+                <div class="flex items-center">
+                    <a href="#projects" class="text-4xl text-orange-500 cursor-pointer"><i class="fa-solid fa-briefcase mr-6  hover:bg-white"></i></a>
+                </div>
             </nav>
-     </header>
+        </header>
      <!--landing page-->
-     <div class="landing m-auto  max-md:mt-24" style="height:82vh">
+     <div class="landing m-auto  max-md:mt-24 mt-10">
         <div class="text-white">
             <img class="h-52 w-52 m-auto rounded-full" src="assets/me.jpg" alt="my-logo">
             <p class="text-white text-center mt-5">Hello, I am</p>
-            <h1 class="text-orange-600 font-bold text-5xl">Jacinta Mwangi</h1>
-            <p class="pt-4 md:pl-10">Full-Stack Web Developer &nbsp; | &nbsp; Technical Writer</p>
+            <h1 class="text-orange-600 p-4 font-bold text-5xl">Jacinta Mwangi</h1>
+            <p class="pt-4 ml-8">Full-Stack Web Developer &nbsp; | &nbsp; Technical Writer</p>
+            <br>
+            <a class="button bg-orange-400 font-semibold flex justify-center rounded-md p-3 mx-36 text-center hover:bg-orange-600" href="#about">Explore</a>
         </div>
      </div>
-    
-
+     <!--about me-->
+        <div class="container w-full mt-20">
+            <div id="about">
+            <h1 class="text-center font-bold text-5xl"><span class="text-orange-600">Know</span> About Me.</h1>
+            </div>
+            <div class="about-details flex flex-row justify-around p-10 max-md:flex-col  max-md:justify-center">
+                <div class="about-me about-bio w-5/12 max-md:w-full text-left max-md:text-center text-3xl">
+                    <p class="">Hi, I am Jacinta Mwangi. I am software engineer currently learning about API Documentation. I am a tech enthusiast and I love learning. i have knowledge in <span class="text-orange-700 font-semibold">HTML, CSS, JAVASCRIPT, REACT, TAILWIND CSS,</span>
+                    <span class="text-orange-600 font-semibold"> RUBY AND RUBY ON RAILS.</span> I am sharpening my skills in <span class="text-orange-700 font-semibold">MySQL, POSTGRESQL.</span></p>
+                </div>
+                <div class="languages w-4/12 max-md:w-full">
+                    <div class="grid grid-cols-3 grid-rows-2 gap-4">
+                        <div>
+                            <img class="w-72 p-3" src="/assets/jscsshtml.png" alt="html">
+                        </div>
+                        <div>
+                            <img class="w-72 p-3" src="/assets/mysql.png" alt="html">
+                        </div>
+                        <div>
+                            <img class="w-72 p-3" src="/assets/reacts.png" alt="html">
+                        </div>
+                        <div>
+                            <img class="w-72 p-3" src="/assets/ruby.png" alt="html">
+                        </div>
+                        <div>
+                            <img class="w-72 p-3" src="/assets/rails.png" alt="html">
+                        </div>
+                        <div>
+                            <img class="w-72 p-3" src="/assets/tailwindcss.png" alt="html">
+                        </div>
+                    </div>   
+              </div>
+         </div>
+            <div class="social-media flex flex-row justify-center space-x-2 max-md:space-x-0">
+                <div class="flex justify-between m-4 w-3/5 text-orange-600">
+                    <h1 class="footer text-2xl" ><a href="https://x.com/MimoMwangi?t=hyAjveA6KqfPqfqXQIRCkg&s=09" alt="facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a></h1>
+                    <h1 class="footer text-2xl" ><a href="https://x.com/MimoMwangi?t=hyAjveA6KqfPqfqXQIRCkg&s=09" alt="X" target="_blank"><i class="fa-brands fa-twitter"></i></a></h1>
+                    <h1 class="footer text-2xl" ><a href="https://www.linkedin.com/in/jacinta-mwangi-8bb063192/" alt="linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a></h1>
+                    <h1 class="footer text-2xl" ><a href="https://github.com/cinta-hash" alt="github" target="_blank"><i class="fa-brands fa-github"></i></a></h1>
+                    <h1 class="footer text-2xl" ><a href="https://x.com/MimoMwangi?t=hyAjveA6KqfPqfqXQIRCkg&s=09" alt="instagram" target="_blank"><i class="fa-brands fa-instagram"></i></a></h1>
+                </div>
+            </div>
+        
+    </div>
+    <!--my-projects-->
+    <div class="projects container md:items-center" id="projects">
+        <div class="bg-stone-950 opacity-10 backdrop-blur-md absolute inset-0"></div>
+         <h1 class="text-center text-4xl pt-6 pb-6 relative z-20">Projects</h1>
+        </div>
+        <div class="project-list container w-8/12 md:grid md:grid-cols-3 md:grid-rows-2 md:gap-4 md:mt-12 md:ml-6 md:justify-center">
+             <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+                <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+                <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+                <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+                <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+                <div class="project1 border-4 border-orange-500 rounded-md text-lg bg-orange-700 bg-opacity-10 backdrop-blur-md mb-8">
+                    <img src="assets/Capture.PNG" alt="">
+                    <h1 class="pl-2">Calculator</h1>
+                    <a class="pl-2" href="https://famous-cucurucho-a673d1.netlify.app/" target="_blank">Visit <i class="fa-solid fa-arrow-right-long text-orange-600"></i></a>
+                </div>
+        </div>
+    </div>
     
     </div>
-   
+   <script src="app.js"></script>
 </body>
 </html>
