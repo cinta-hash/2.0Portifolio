@@ -990,6 +990,15 @@ video {
   line-height: 1.75rem;
 }
 
+.hover\:text-2xl:hover{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.hover\:font-semibold:hover{
+  font-weight: 600;
+}
+
 .hover\:text-orange-600:hover{
   --tw-text-opacity: 1;
   color: rgb(234 88 12 / var(--tw-text-opacity));
@@ -1003,6 +1012,11 @@ video {
 .hover\:text-orange-500:hover{
   --tw-text-opacity: 1;
   color: rgb(249 115 22 / var(--tw-text-opacity));
+}
+
+.hover\:text-orange-400:hover{
+  --tw-text-opacity: 1;
+  color: rgb(251 146 60 / var(--tw-text-opacity));
 }
 
 .hover\:before\:opacity-75:hover::before{
