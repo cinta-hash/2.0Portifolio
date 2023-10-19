@@ -15,7 +15,8 @@
             <nav class="flex justify-between items-center space-x-4">
                 <h1 class="text-3xl font-bold">JW <span class="text-orange-500">Mwangi</span></h1>
                 <div class="flex items-center">
-                    <h1 class="text-3xl text-orange-500 hover:text-orange-600" ><a href="#projects"><i class="fa-solid fa-briefcase mr-6 cursor-pointer"></i></a></h1>
+                    <a href="public/jmwangi2023.pdf" download="jmwangi-cv" class="cv mr-5 bg-orange-500 p-2 rounded-md font-bold hover:bg-orange-600">Resume &darr;</a>
+                    <h1 class="text-3xl text-orange-500 hover:text-orange-400" ><a href="#projects"><i class="fa-solid fa-briefcase mr-6 cursor-pointer"></i></a></h1>
                 </div>
             </nav>
         </header>
@@ -122,14 +123,22 @@
         <form action="https://api.web3forms.com/submit" method="POST" class="flex justify-center flex-wrap md:container">
 
             <input type="hidden" name="access_key" value="46d49d26-287f-469a-b074-1a29fdd5b169">
-            <label for="name" class="pl-2">Full Name </label> <br>
-            <input type="text" name="name" class=" ml-2 md:mb-4 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="Jacinta-Mwangi" required><br>
-            <label for="email" class="pl-2"> Email Address</label> <br>
-            <input type="email" name="email" class="ml-2 md:mb-4 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="jacintawmwangi21@gmail.com" required> <br>
-            <label for="email" class="pl-2">Phone Number</label> <br>
-            <input type="number" name="number" class="ml-2 md:mb-4 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="+323665542356" required> <br>
-            <label for="message" class="pl-2">Your message</label><br>
-            <textarea name="message" class="ml-2 md:mb-4 w-4/5 pl-2 rounded-md" required placeholder="enter text here"></textarea>
+            <div class="md:flex md:flex-col w-full mb-4">
+                <label for="name" class="pl-2">Full Name </label>
+                <input type="text" name="name" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="Jacinta-Mwangi" required>
+            </div>
+            <div class="md:flex md:flex-col w-full mb-4">
+                <label for="email" class="pl-2">Email Address</label>
+                <input type="email" name="email" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="jacintawmwangi21@gmail.com" required>
+            </div>
+            <div class="md:flex md:flex-col w-full mb-4">
+                <label for="phone" class="pl-2">Phone Number</label>
+                <input type="number" name="phone" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md" placeholder="+323665542356" required>
+            </div>
+            <div class="md:flex md:flex-col w-full mb-4">
+                <label for="message" class="pl-2">Your message</label>
+                <textarea name="message" class="ml-2 w-4/5 pl-2 rounded-md" required placeholder="enter text here"></textarea>
+            </div>
             <button type="submit" class="bg-orange-500 hover:bg-orange-600 p-2 rounded-md mt-4">Submit Form</button>
         
         </form>
