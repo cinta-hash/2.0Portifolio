@@ -792,7 +792,7 @@ video {
 }
 
 .bg-pack{
-  background-image: url('/assets/bg.jpg');
+  background-image: url('/public/bg.jpg');
 }
 
 .bg-cover{

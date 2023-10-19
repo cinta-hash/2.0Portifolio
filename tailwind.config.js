@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'pack': "url('/assets/bg.jpg')"
+        'pack': "url('/public/bg.jpg')"
       },
       fontFamily: {
         'body': ['Poppins']
