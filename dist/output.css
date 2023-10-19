@@ -998,6 +998,12 @@ video {
   }
 }
 
+@media (min-width: 480px){
+  .sm\:text-center{
+    text-align: center;
+  }
+}
+
 @media (min-width: 768px){
   .md\:col-span-1{
     grid-column: span 1 / span 1;
