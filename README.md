@@ -17,7 +17,10 @@ Contact Hub: To make it easy for visitors to get in touch with me for inquiries,
 
 Technologies Used My portfolio website is built using the following technologies:
 
-HTML5: For structuring web pages. CSS3: For styling and layout. Tailwind CSS: For For styling and layout and responsive design and layout. Version Control: Git for version control, hosted on GitHub https://github.com/cinta-hash/2.0Portifolio
+HTML5: For structuring web pages. CSS3: For styling and layout.
+Tailwind CSS: For For styling and layout and responsive design and layout.
+npx tailwindcss -i ./style.css -o ./dist/style.css --watch to get tailwind to build
+Version Control: Git for version control, hosted on GitHub https://github.com/cinta-hash/2.0Portifolio
 
 Features: Here are some key features of my portfolio website:
 
