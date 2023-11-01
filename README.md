@@ -5,7 +5,7 @@ Table of Contents Introduction Website URL Purpose Technologies Used Features Co
 
 Introduction: My portfolio website serves as an online showcase of my skills, experience, and projects. It is designed to provide visitors with insights into my background, capabilities, and accomplishments. This website is a reflection of my dedication to web development and design.
 
-Website URL You can access my portfolio website at https://preeminent-gecko-e65caf.netlify.app
+Website URL You can access my portfolio website at https://jmwangi.netlify.app/
 
 Purpose The primary purposes of my portfolio website are:
 
