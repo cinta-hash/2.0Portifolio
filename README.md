@@ -19,7 +19,7 @@ Technologies Used My portfolio website is built using the following technologies
 
 HTML5: For structuring web pages. CSS3: For styling and layout.
 Tailwind CSS: For For styling and layout and responsive design and layout.
-npx tailwindcss -i ./style.css -o ./dist/style.css --watch to get tailwind to build
+to get tailwind to build =>npx tailwindcss -i ./style.css -o ./dist/style.css --watch 
 Version Control: Git for version control, hosted on GitHub https://github.com/cinta-hash/2.0Portifolio
 
 Features: Here are some key features of my portfolio website:
@@ -27,4 +27,4 @@ Features: Here are some key features of my portfolio website:
 Home Page: An introduction to who I am and what I do. Portfolio: A showcase of my projects, complete with descriptions and links. Resume/CV: A downloadable PDF of my resume. Contact Page: Information on how to reach me, including a contact form. Contact Information Feel free to contact me through the following channels:
 
 Email: jacintawmwangi21@gmail.com LinkedIn: https://www.linkedin.com/in/jacinta-mwangi-8bb063192/ GitHub: https://github.com/cinta-hash/
- Twitter: https://x.com/MimoMwangi?t=hyAjveA6KqfPqfqXQIRCkg&s=09 Thank you for visiting my portfolio website! I hope you enjoy exploring my work and learning more about me. If you have any questions or would like to connect, please don't hesitate to reach out.
+Twitter: https://x.com/MimoMwangi?t=hyAjveA6KqfPqfqXQIRCkg&s=09 Thank you for visiting my portfolio website! I hope you enjoy exploring my work and learning more about me. If you have any questions or would like to connect, please don't hesitate to reach out.
