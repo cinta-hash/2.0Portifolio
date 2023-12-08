@@ -124,29 +124,30 @@
                 <h1 class="text-3xl font-bold">Contact me</h1>
                 <h2>Fill the form to send a message</h2>
          </div>
-          <div>
-                <form method="POST" id="form" target="_blank" class="flex justify-center flex-wrap md:container">
-                        <input type="hidden" name="access_key" value="46d49d26-287f-469a-b074-1a29fdd5b169">
-                        <div class="md:flex md:flex-col w-full mb-4">
-                            <label for="name" class="pl-2">Full Name </label>
-                            <input type="text" id="name" name="name" autocomplete="given-name" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="Jacinta-Mwangi" required>
-                        </div>
-                        <div class="md:flex md:flex-col w-full mb-4">
-                            <label for="email" class="pl-2">Email Address</label>
-                            <input type="email" name="email" id="email" autocomplete="email" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="jacintawmwangi21@gmail.com" required>
-                        </div>
-                        <div class="md:flex md:flex-col w-full mb-4">
-                            <label for="phone" class="pl-2">Phone Number</label>
-                            <input type="number" name="phone" id="phone" autocomplete="off" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="+323665542356" required>
-                        </div>
-                        <div class="md:flex md:flex-col w-full mb-4">
-                            <label for="message" class="pl-2">Your message</label>
-                            <textarea name="message" id="message" class=" text-gray-700 ml-2 w-4/5 pl-2 rounded-md" required placeholder="enter text here"></textarea>
-                        </div>
-                        <button type="submit" class="bg-orange-500 hover:bg-orange-600 p-2 rounded-md mt-8">Submit Message</button><br>
-                        <div id="result"></div>
-                </form>
-            </div>
+                 <div >
+                        <form method="POST" id="form" target="_blank" class="flex justify-center flex-wrap md:container">
+                                <input type="hidden" name="access_key" value="46d49d26-287f-469a-b074-1a29fdd5b169">
+                                <div class="md:flex md:flex-col w-full mb-4">
+                                    <label for="name" class="pl-2">Full Name </label>
+                                    <input type="text" id="name" name="name" autocomplete="given-name" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="Jacinta-Mwangi" required>
+                                </div>
+                                <div class="md:flex md:flex-col w-full mb-4">
+                                    <label for="email" class="pl-2">Email Address</label>
+                                    <input type="email" name="email" id="email" autocomplete="email" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="jacintawmwangi21@gmail.com" required>
+                                </div>
+                                <div class="md:flex md:flex-col w-full mb-4">
+                                    <label for="phone" class="pl-2">Phone Number</label>
+                                    <input type="number" name="phone" id="phone" autocomplete="off" class="ml-2 w-4/5 leading-[3rem] pl-2 rounded-md text-gray-700" placeholder="+323665542356" required>
+                                </div>
+                                <div class="md:flex md:flex-col w-full mb-4">
+                                    <label for="message" class="pl-2">Your message</label>
+                                    <textarea name="message" id="message" class=" text-gray-700 ml-2 w-4/5 pl-2 rounded-md" required placeholder="enter text here"></textarea>
+                                </div>
+                                <button type="submit" class="bg-orange-500 hover:bg-orange-600 p-2 rounded-md mt-8">Submit Message</button><br>
+                                <div id="result"></div> 
+                        </form>  
+             
+                   </div>
      </div>
   </div>
   <footer class="mt-24">
